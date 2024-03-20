@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class fruitBasket {
     public static void main(String[] args){
-        int []arr ={1,2,1,2,2,1};
+        int []arr ={1,2,1,3,2,2,2,1};
         System.out.println(totalFruit(arr));
 
     }
