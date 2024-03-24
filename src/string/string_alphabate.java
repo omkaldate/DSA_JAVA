@@ -1,4 +1,4 @@
-package stringOperations;//public class stringOperations.string_alphabate {
+package string;//public class stringOperations.string_alphabate {
 //    public static void main(String[] args){
 //        String series= " ";
 //        for(int i=0; i<30; i++){
@@ -25,7 +25,6 @@ package stringOperations;//public class stringOperations.string_alphabate {
 //    }
 //}
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 public class string_alphabate {
     public static void main(String[] args) {

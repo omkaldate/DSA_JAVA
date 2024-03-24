@@ -1,4 +1,4 @@
-package stringOperations;
+package string;
 
 public class string_palindrom {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package slidingWindow;
+package string;
 
 public class firstUniqueCharacterInString {
     public static void main(String[] args){
