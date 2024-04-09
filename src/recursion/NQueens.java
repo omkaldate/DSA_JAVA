@@ -4,6 +4,7 @@ public class NQueens {
     public static void main(String[] args){
         int n =4;
         boolean[][]board = new boolean[n][n];
+        System.out.println(board.length);
         //System.out.println(board[0][2]);
         System.out.println(queens(board , 0));
     }
@@ -61,7 +62,7 @@ public class NQueens {
                     System.out.print("Q");
                 }
                 else{
-                    System.out.print("x");
+                    System.out.print(".");
                 }
             }
             System.out.println();
