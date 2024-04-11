@@ -15,8 +15,9 @@ public class subsetWhereSumIsK {
     static void funk(int i,ArrayList<Integer> list,int sum,int k,int[]arr){
         if(i==arr.length){
             if(k == sum){
-                System.out.println(list);
+               // System.out.println(list);
             }
+            System.out.println(list);
             return;
         }
         list.add(arr[i]);
