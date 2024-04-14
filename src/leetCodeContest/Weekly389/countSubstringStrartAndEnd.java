@@ -1,4 +1,14 @@
 package leetCodeContest.Weekly389;
+/*
+You are given a string s and a character c. Return the total number of
+substrings of s that start and end with c.
+
+Example 1
+Input: s = "abada", c = "a"
+Output: 6
+Explanation: Substrings starting and ending with "a" are: "abada", "abada", "abada", "abada", "abada", "abada".
+ */
+
 
 import java.util.HashMap;
 

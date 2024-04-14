@@ -1,5 +1,13 @@
 package leetCodeContest.Biweekly126;
+/*
+You are given an integer array nums containing positive integers. We define a function encrypt such that encrypt(x) replaces every digit in x with the largest digit in x.
+ For example, encrypt(523) = 555 and encrypt(213) = 333.Return the sum of encrypted elements.
 
+Example 1:
+Input: nums = [1,2,3]
+Output: 6
+Explanation: The encrypted elements are [1,2,3]. The sum of encrypted elements is 1 + 2 + 3 == 6.
+ */
 public class FindSumOfEncryption {
     public static void main(String[] args){
         int[]arr = {123,423,12,12,0};
