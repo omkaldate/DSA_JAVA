@@ -1,7 +1,7 @@
 package oopsCollage_practicals;
 
 import java.util.Arrays;
-public class practical_5_2_ {
+public class practical_5_2 {
     public static void main(String[] args) {
         System.out.println("Name :  Om Balasaheb Kaldate");
         String[] names = {"ram", "om", "shiv", "Diana", "krishna"}; // List of names to sort

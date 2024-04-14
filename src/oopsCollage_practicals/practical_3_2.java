@@ -1,6 +1,6 @@
 package oopsCollage_practicals;
 
-public class practical_3_2_ {
+public class practical_3_2 {
     public static void main(String[] args) {
         System.out.println("Name :  Om Balasaheb Kaldate");
         int count = 0; // Initialize count variable to keep track of the count of prime numbers

@@ -1,6 +1,6 @@
 package oopsCollage_practicals;
 import java.util.Scanner;
-public class practical_3_3_ {
+public class practical_3_3 {
     public static void main(String[] args) {
         System.out.println("Om Balasaheb Kaldate");
         Scanner scanner = new Scanner(System.in);
