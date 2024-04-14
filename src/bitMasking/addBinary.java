@@ -1,6 +1,6 @@
 package bitMasking;
 
-public class _67_addBinary {
+public class addBinary {
     public static void main(String[] args){
         System.out.println(addBinary("101" , "010"));
     }
