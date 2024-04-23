@@ -23,9 +23,10 @@ public class basicFunctions {
          System.out.println(i);
        }
 
-      mp.remove("a");
+        mp.remove("a");
         System.out.println(mp);
 
 
-          }
+
+    }
 }
