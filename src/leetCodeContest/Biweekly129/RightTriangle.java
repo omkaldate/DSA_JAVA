@@ -1,18 +1,17 @@
 package leetCodeContest.Biweekly129;
 
 public class RightTriangle {
-//    public static void main(String[] args){
-//        int[][] grid= {
-//                {0},
-//                {1}
-////                {0,1,0},
-////                {0,1,1},
-////                {0,1,0}
-//        };
-//
-//        System.out.println(numberOfRightTriangles(grid));
-//    }
-//
+    public static void main(String[] args){
+        int[][] grid= {
+
+                {0,1,0},
+                {0,1,1},
+                {0,1,0}
+        };
+
+        System.out.println(numberOfRightTriangles(grid));
+    }
+
 //    public static long numberOfRightTriangles(int[][] grid) {
 //        int total = 0;
 //
@@ -42,16 +41,29 @@ public class RightTriangle {
 //            }
 //           return (cntrow-1) * (cntcol-1);
 //        }
-//}
 
 
+    public static long numberOfRightTriangles(int[][] grid) {
+        long cnt = 0;
+        int[] c = new int[grid[0].length];
+        int[] r = new int[grid.length];
 
-    public static void main(String[] args){
-        int[][] grid= {
-                {0,1,0},
-                {0,1,1},
-                {0,1,0}
-        };
-        
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] == 1) {
+                    c[j]++;
+                    r[i]++;
+                }
+            }
+        }
+
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] == 1) {
+                    cnt += (long) (r[i] - 1) * (c[j] - 1);
+                }
+            }
+        }
+        return cnt;
     }
-   }
+}
