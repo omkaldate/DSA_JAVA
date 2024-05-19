@@ -1,4 +1,4 @@
-package leetCodeContest.weeklyContest395;
+package leetCodeContest.weekly395;
 
 import java.util.Arrays;
 import java.util.HashMap;

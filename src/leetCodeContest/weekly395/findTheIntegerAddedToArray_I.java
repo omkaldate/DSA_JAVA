@@ -1,4 +1,4 @@
-package leetCodeContest.weeklyContest395;
+package leetCodeContest.weekly395;
 
 public class findTheIntegerAddedToArray_I {
     public static void main(String[] args) {

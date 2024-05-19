@@ -1,4 +1,4 @@
-package leetCodeContest.Weeklycontest393;
+package leetCodeContest.Weeklyt393;
 
 public class latestTimeAfterReplacingCharacter {
     public static void main(String [] args){
