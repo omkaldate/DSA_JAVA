@@ -1,6 +1,6 @@
-package queue;
+package stack;
 
-public class Deque {
+public class stackImplement {
     public static void main(String[] args){
         
     }
