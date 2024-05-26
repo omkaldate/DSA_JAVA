@@ -20,9 +20,9 @@ public class findTheNumbersOfGoodpairs {
     }
 
     public static void main(String[] args){
-        int []nums1 = {1,3,4};
-        int []nums2 = {1,3,4};
-        int k=1;
+        int []nums1 = {1,2,4,12};
+        int []nums2 = {2,4};
+        int k=3;
 
         System.out.println(numberOfPairs(nums1 , nums2 , k));
     }
