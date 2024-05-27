@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class pivot_in_rotaterArray {
     public static void main(String[] args){

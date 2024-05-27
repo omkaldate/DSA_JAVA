@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class mountain_findPeak {
     public static void main(String[] args){

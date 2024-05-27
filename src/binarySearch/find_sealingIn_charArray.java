@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class find_sealingIn_charArray {
     public static void main(String[] args){

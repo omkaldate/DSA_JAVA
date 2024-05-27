@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 import java.util.Arrays;
 
 public class findOccurance_intFirst_andLast {

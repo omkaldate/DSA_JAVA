@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class _81RotatedSearchDuplicate {
     public static void main(String[] args) {

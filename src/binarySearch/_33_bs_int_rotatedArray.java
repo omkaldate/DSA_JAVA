@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class _33_bs_int_rotatedArray {
     public static void main(String[] args) {

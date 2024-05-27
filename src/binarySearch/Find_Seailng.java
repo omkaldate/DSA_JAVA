@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class Find_Seailng {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package binarySearch_4_hoursProblems;
+package binarySearch;
 
 public class hard_1095findinBiotonicArray {
     public static void main(String[] args) {
