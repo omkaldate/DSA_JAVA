@@ -113,4 +113,18 @@ public class LL {
         }
         return null;
     }
+
+
+    public Node findMid(Node head){
+        if(head == null || head.next == null) return head;
+        Node slow =head;
+        Node fast = head;
+
+        while (fast != null && head.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+
 }
