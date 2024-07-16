@@ -127,4 +127,9 @@ public class LL {
         return slow;
     }
 
+    public Node reverse (Node head){
+
+        return head;
+    }
+
 }
