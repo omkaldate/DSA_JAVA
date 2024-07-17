@@ -128,8 +128,9 @@ public class LL {
     }
 
     public Node reverse (Node head){
-
+        Node prev = null;
         return head;
     }
+
 
 }
