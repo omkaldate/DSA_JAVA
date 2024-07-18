@@ -127,10 +127,22 @@ public class LL {
         return slow;
     }
 
-    public Node reverse (Node head){
-        Node prev = null;
-        return head;
+
+    //*************  reverse the linkedList  *********************
+
+    public void helperReverse(){
+        this.head = reverse(this.head);
     }
 
+    public Node reverse (Node head){
+        if(head == null || head.next == null) return head;
+
+        Node newHead = reverse(head.next);
+        Node front = head.next;
+        front.next = head;
+        head.next = null;
+
+        return newHead;
+    }
 
 }
