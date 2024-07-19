@@ -121,7 +121,7 @@ public class LL {
         Node fast = head;
 
         while (fast != null && head.next != null){
-            fast = fast.next.next;
+            fast = fast.next.next; 
             slow = slow.next;
         }
         return slow;
