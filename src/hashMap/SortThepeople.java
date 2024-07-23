@@ -20,6 +20,7 @@ public class SortThepeople {
 
             for (int i = 0; i < heights.length; i++) {
                 names[i] = mpp.get(heights[i]);
+                System.out.println(names[i]);
             }
             return names;
         }
