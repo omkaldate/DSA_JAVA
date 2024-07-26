@@ -33,6 +33,8 @@ public class findValidMatrixgivenRowNadColumn {
         int[]rowSum = {5,7,10};
         int[]colSum = {8,6,8};
 
+        int[]arr= {1,3};
+
        int[][]ans = restoreMatrix(rowSum,colSum);
         for(int[]x : ans){
             System.out.println(Arrays.toString(x));
