@@ -18,29 +18,16 @@ public class MergeSort {
         int i = 0, j = 0, k = 0;
 
         while (i < arr1.length && j < arr2.length) {
-            if (arr1[i] < arr2[j]) {
-                mix[k] = arr1[i];
-                i++;
-            } else {
-                mix[k] = arr2[j];
-                j++;
-            }
-            k++;
+            if (arr1[i] < arr2[j]) mix[k++] = arr1[i++];
+            else mix[k++] = arr2[j++];
         }
 
-        while (i < arr1.length) {
-            mix[k] = arr1[i];
-            i++;
-            k++;
-        }
+        while (i < arr1.length) mix[k++] = arr1[i++];
+        while (j < arr2.length) mix[k++] = arr2[j++];
 
-        while (j < arr2.length) {
-            mix[k] = arr2[j];
-            j++;
-            k++;
-        }
         return mix;
     }
+
 
     public static void main(String[] args) {
         int[] arr = {8, 3, 5, 4, 2, 7, 6, 1};
