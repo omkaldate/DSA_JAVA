@@ -9,8 +9,8 @@ public class HeapifyAlgo {
         int left = 2*i;
         int right = left +1;
 
-        if(left<n && arr[left]>arr[largest]) largest = left;
-        if(right<n && arr[right]>arr[largest]) largest = right;
+        if(left<=n && arr[left]>arr[largest]) largest = left;   // changed <= instead of <
+        if(right<=n && arr[right]>arr[largest]) largest = right;    // same as above <=
 
         if(largest != i){
             swap(arr,largest,i);
