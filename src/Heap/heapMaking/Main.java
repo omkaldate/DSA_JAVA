@@ -6,9 +6,14 @@ public class Main {
         Heap hp = new Heap();
         hp.insert(50);
         hp.insert(55);
-        hp.insert(50);
+        hp.insert(53);
         hp.insert(52);
         hp.insert(54);
+        hp.print();
+
+        System.out.println();
+
+        hp.deletion();
         hp.print();
     }
 }
