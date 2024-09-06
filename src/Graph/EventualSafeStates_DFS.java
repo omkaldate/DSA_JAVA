@@ -3,7 +3,7 @@ package Graph;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EventualSafeStates {
+public class EventualSafeStates_DFS {
     public static boolean DFS(int node, int[]vis, int[]path, int[]check, List<List<Integer>> list){
         vis[node] = 1;
         path[node] = 1;
