@@ -1,10 +1,8 @@
 package Graph;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 
-public class cycleinGraphDFS {
+public class cycleinUndirictedGraphDFS {
 
     public static boolean BFS(ArrayList<ArrayList<Integer>> list, int[] vis, int node,int parent) {
         vis[node] = 1;
@@ -27,9 +25,8 @@ public class cycleinGraphDFS {
 
         int v = edge.length;
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
-        for (int i = 0; i <= v; i++) {
-            list.add(new ArrayList<>());
-        }
+        for (int i = 0; i <= v; i++) list.add(new ArrayList<>());
+
 
         for (int a=0; a<v; a++){
           for(int b=0; b<v; b++){
@@ -43,6 +40,5 @@ public class cycleinGraphDFS {
                 if(BFS(list, vis, i, -1) == true) System.out.println("cycle is detected");
             }
         }
-
     }
 }

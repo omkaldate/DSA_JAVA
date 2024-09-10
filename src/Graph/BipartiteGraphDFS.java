@@ -16,6 +16,7 @@ public class BipartiteGraphDFS {
         return true;
     }
 
+
     public static boolean isBipartite(int[][] graph) {
         int n = graph.length;
 

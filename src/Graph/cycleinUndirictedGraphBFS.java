@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class cycleinGraphBFS {
+public class cycleinUndirictedGraphBFS {
 
     static class Pair {
         int node;
