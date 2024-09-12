@@ -1,11 +1,10 @@
 package Graph;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class cycleInDirictedGraph {
+public class cycleInDirictedGraph_BFS {
     public static boolean topoSort(int V, ArrayList<ArrayList<Integer>> adj) {
         int indegree[] = new int[V];
         for(int i=0; i<V; i++){

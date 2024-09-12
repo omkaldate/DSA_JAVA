@@ -2,10 +2,9 @@ package Graph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Stack;
 
-public class TopologicalSort {
+public class TopologicalSort_DFS {
 
     public static void DFS(int node , int[]vis , ArrayList<ArrayList<Integer>> list , Stack<Integer> stk){
         vis[node] = 1;
