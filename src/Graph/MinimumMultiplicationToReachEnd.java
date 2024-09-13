@@ -35,10 +35,7 @@ public class MinimumMultiplicationToReachEnd {
 
                 if (steps + 1 < dist[num]) {
                     dist[num] = steps + 1;
-
-                    if (num == end)
-                        return steps + 1;
-
+                    if (num == end) return steps + 1;
                     q.offer(new Pair(num, steps + 1));
                 }
             }
