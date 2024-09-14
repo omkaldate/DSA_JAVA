@@ -43,7 +43,9 @@ public class comparator_ {
 //            }
 //        });
 
-        Collections.sort(list, new mycustomcompare());
+//        Collections.sort(list, new mycustomcompare());
+
+        Collections.sort(list , (b1,b2) -> b1.age-b2.age);
         System.out.println(list);
     }
 }

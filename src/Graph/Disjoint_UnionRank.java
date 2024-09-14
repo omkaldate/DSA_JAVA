@@ -28,10 +28,10 @@ public class Disjoint_UnionRank {
 
         if(pu == pv) return;
         if(rank.get(pu) < rank.get(pv)){
-            parent.set(pv, pu);
+            parent.set(pu, pv);
         }
         else if(rank.get(pu) > rank.get(pv)){
-            parent.set(pu, pv);
+            parent.set(pv, pu);
         }
         else{
             parent.set(pv,pu);
