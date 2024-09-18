@@ -33,7 +33,7 @@ public class WordLadder_I {
 
             for(int j=0; j<word.length(); j++){
                 for(char ch ='a'; ch <= 'z'; ch++){
-                    char charArray[] = word.toCharArray();
+                    char[] charArray = word.toCharArray();
                     charArray[j] = ch;
                     String newWord = new String(charArray);
 
