@@ -21,6 +21,9 @@ public class ReportSpamMessage {
 
 
     public static void main(String[] args) {
+            String[]s1 = {"om" , "Balasaheb"," kaldate"};
+            String[]s2 = {"abb", "insn","oaisndl"};
 
+        System.out.println(reportSpam(s1,s2));
     }
 }
