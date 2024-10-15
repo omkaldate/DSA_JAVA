@@ -1,5 +1,7 @@
 package DP;
 
+import java.util.Arrays;
+
 public class _0_1_Knapsack {
 
 
@@ -49,7 +51,7 @@ public class _0_1_Knapsack {
             }
 
         }
-        //for(int[]x : dp) System.out.println(Arrays.toString(x));
+        for(int[]x : dp) System.out.println(Arrays.toString(x));
         return dp[n-1][maxW];
     }
 
@@ -106,16 +108,18 @@ public class _0_1_Knapsack {
         //   for(int[]x : dp) System.out.println(Arrays.toString(x));
         //   return ans;
 
-        //return tabu(n, W, val, wt);      //tabulation
+        return tabu(n, W, val, wt);      //tabulation
 
         //return space(n,W, val, wt);     //spaceoptimization using 2 rows
 
-        return spaceExtra(n, W, val, wt);  // spaceopotimize using single row
+        //return spaceExtra(n, W, val, wt);  // spaceopotimize using single row
     }
 
 
 
     public static void main(String[] args) {
-
+        int[]w = {2,3,4,5};
+        int[]v = {1,2,5,6};
+        System.out.println(knapSack(8, w,v));
     }
 }
