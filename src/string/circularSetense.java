@@ -1,7 +1,7 @@
 package string;
 
 public class circularSetense {
-    public boolean isCircularSentence(String sentence) {
+    public static boolean isCircularSentence(String sentence) {
         String[] words = sentence.split(" ");
         int n = words.length;
 
@@ -18,6 +18,6 @@ public class circularSetense {
 
 
     public static void main(String[] args) {
-        
+        System.out.println(isCircularSentence("helllo"));
     }
 }
