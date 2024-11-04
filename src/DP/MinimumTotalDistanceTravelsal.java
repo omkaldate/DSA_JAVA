@@ -49,4 +49,8 @@ public class MinimumTotalDistanceTravelsal {
         return dp[robIndex][facIndex] = Math.min(pick, notPick);
 
     }
+
+    public static void main(String[] args) {
+
+    }
 }
