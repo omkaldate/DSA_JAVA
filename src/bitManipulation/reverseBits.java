@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class reverseBits {
     public static void main(String[] args){int n =0000000011;

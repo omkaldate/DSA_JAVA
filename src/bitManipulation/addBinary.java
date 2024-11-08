@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class addBinary {
     public static void main(String[] args){

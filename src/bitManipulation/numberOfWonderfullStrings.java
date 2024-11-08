@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class DivisibleByTwoHowManyTime {
     public static void main(String[] args){

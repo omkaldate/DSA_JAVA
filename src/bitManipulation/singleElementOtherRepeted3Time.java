@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class singleElementOtherRepeted3Time {
     public static void main(String[] args){

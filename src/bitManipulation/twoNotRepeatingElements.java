@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class twoNotRepeatingElements {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class numberOf1Bits {
     public static void main(String[] args) {

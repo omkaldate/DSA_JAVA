@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class MinimumNumberofOperationstoMakeArrayXOREqualtoK{
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class NumberComolement {
     public static int findComplement(int num) {

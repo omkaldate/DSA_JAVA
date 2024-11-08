@@ -1,4 +1,4 @@
-package bitMasking;
+package bitManipulation;
 
 public class LargestCombinationWithBitwiseANDGreaterThanZero {
     public static int largestCombination(int[] candidates) {
