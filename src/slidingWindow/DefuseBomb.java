@@ -26,5 +26,9 @@ public class DefuseBomb {
     }
 
 
+    public static void main(String[] args) {
+        
+    }
+
     
 }
