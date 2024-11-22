@@ -1,6 +1,6 @@
 package DP;
 
-public class LongestcommonSubsequence {
+public class LongestcommonSubsequence_length {
 
     public static int rec(int n, int m, String text1, String text2){
         if(n<0 || m <0) return 0;
@@ -20,7 +20,6 @@ public class LongestcommonSubsequence {
 
         return dp[n][m] =  Math.max(memo(n-1,m,text1,text2,dp), memo(n,m-1,text1,text2,dp));
     }
-
 
     public static int tabu(int n, int m, String s1, String s2){
         int[][]dp = new int[n+1][m+1];
