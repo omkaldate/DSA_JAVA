@@ -34,6 +34,7 @@ public class FindScoreofanArrayAfterMarkingAllElements {
 
 
     public static void main(String[] args) {
-        
+        int[]arr = {2,5,7,5,3,1,77,44,2,77};
+        System.out.println(findScore(arr));
     }
 }
