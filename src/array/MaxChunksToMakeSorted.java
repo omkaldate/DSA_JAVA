@@ -11,4 +11,9 @@ public class MaxChunksToMakeSorted {
         }
         return chunks;
     }
+
+
+    public static void main(String[] args) {
+        
+    }
 }
