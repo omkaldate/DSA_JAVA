@@ -10,19 +10,13 @@ public class Main {
         list.insertFirst(30);
         list.insertFirst(40);
         list.insertFirst(50);
+        list.insert(1,100);
+        list.insertLast(200);
+        list.deleteFirst();
+        list.delete(1);
+        list.deleteLast();
 
-        list.display();
 
-        int deletedFirst = list.deleteFirst(); // Delete the first element
-        System.out.println("Deleted first element: " + deletedFirst);
-        list.display();
-
-        int deletedLast = list.deleteLast(); // Delete the last element
-        System.out.println("Deleted last element: " + deletedLast);
-        list.display();
-
-        int deletedAtIndex = list.delete(1); // Delete element at index 1
-        System.out.println("Deleted element at index 1: " + deletedAtIndex);
-        list.display();
+        list.print();
     }
 }
