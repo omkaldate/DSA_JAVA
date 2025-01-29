@@ -9,5 +9,8 @@ public class Main {
         list.display();  // Before sorting
         list.sort();
         list.display();  // After sorting
+
+        list.insertLast(10);
+        list.display();
     }
 }
