@@ -18,6 +18,8 @@ public class _3SumClosest {
                 sum += nums[j];
                 sum += nums[k];
 
+
+
                 if(Math.abs(target - sum) < Math.abs(target - ans)) {
                     ans = sum;
                 }
