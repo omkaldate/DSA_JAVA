@@ -18,6 +18,7 @@ public class AverageWaitingTime {
                 {1,2},
                 {2,5},
                 {4,3}
+                
         };
         System.out.println(averageWaitingTime(arr));
     }
