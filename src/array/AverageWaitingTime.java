@@ -1,5 +1,5 @@
 package array;
-
+import java.util.ArrayList;
 public class AverageWaitingTime {
     public static  double averageWaitingTime(int[][] customers) {
         double totalTime = 0;
@@ -20,5 +20,7 @@ public class AverageWaitingTime {
                 {4,3}
         };
         System.out.println(averageWaitingTime(arr));
+
+        ArrayList<Integer> list = new ArrayList<>();
     }
 }
