@@ -21,6 +21,7 @@ public class AverageWaitingTime {
         };
         System.out.println(averageWaitingTime(arr));
 
+
         ArrayList<Integer> list = new ArrayList<>();
     }
 }
