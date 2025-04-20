@@ -27,7 +27,7 @@ public class LL {
    public Node get(int ind){
        Node temp = head;
        if(this.size < ind+1){
-           System.out.println("size of list is not that much");
+           System.out.println("skize of list is not that much");
            return null;
        }
        for(int i=0; i<ind; i++){
