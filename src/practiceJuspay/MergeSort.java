@@ -1,4 +1,4 @@
-package oops;
+package practiceJuspay;
 
 import java.util.Arrays;
 

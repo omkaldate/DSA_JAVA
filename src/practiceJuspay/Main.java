@@ -1,6 +1,4 @@
-package oops;
-
-import java.io.IOException;
+package practiceJuspay;
 
 public class Main {
 

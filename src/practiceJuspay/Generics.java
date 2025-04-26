@@ -1,4 +1,4 @@
-package oops;
+package practiceJuspay;
 
 public class Generics <T> {
 
