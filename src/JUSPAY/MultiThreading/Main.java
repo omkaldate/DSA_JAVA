@@ -1,4 +1,4 @@
-package Threading.MultiThreading;
+package JUSPAY.MultiThreading;
 
 public class Main {
     public static void main(String[] args) {

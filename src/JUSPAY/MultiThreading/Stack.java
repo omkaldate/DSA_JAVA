@@ -1,4 +1,4 @@
-package Threading.MultiThreading;
+package JUSPAY.MultiThreading;
 
 public class Stack {
     private int[]array;

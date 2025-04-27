@@ -1,4 +1,4 @@
-package Threading.MultiThreading;
+package JUSPAY.MultiThreading;
 
 import java.util.LinkedList;
 import java.util.Queue;
