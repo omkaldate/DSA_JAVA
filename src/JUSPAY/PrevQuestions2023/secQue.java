@@ -1,4 +1,4 @@
-package JUSPAY;
+package JUSPAY.PrevQuestions2023;
 
 import java.util.*;
 
