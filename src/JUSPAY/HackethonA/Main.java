@@ -57,17 +57,13 @@ class LockingTree {
 
     boolean checkDescendantsLocked(Node currentNode, int id, List<Node> lockedNodes) {
         if (currentNode.isLocked) {
-            if (currentNode.userID != id) {
-                return false;
-            }
+            if (currentNode.userID != id) return false;
             lockedNodes.add(currentNode);
         }
         if (currentNode.descendantLocked == 0) return true;
 
         for (Node child : currentNode.children) {
-            if (!checkDescendantsLocked(child, id, lockedNodes)) {
-                return false;
-            }
+            if (!checkDescendantsLocked(child, id, lockedNodes)) return false;
         }
         return true;
     }
@@ -155,8 +151,6 @@ class LockingTree {
 }
 
 public class Main {
-
-
 
     public static Node buildTree(Node root, int numChildren, List<String> nodeLabels) {
         Queue<Node> queue = new LinkedList<>();

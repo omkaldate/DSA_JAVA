@@ -11,6 +11,7 @@ class TreeNode {
     Set<TreeNode> lockedDescendents = new HashSet<>();
 }
 
+
 class LockingTreeSystem {
     Map<String, TreeNode> nameToTreeNodeMapping = new HashMap<>();
 
@@ -38,7 +39,6 @@ class LockingTreeSystem {
             par.lockedDescendents.add(r);
             par = par.parent;
         }
-
         r.lockedBy = id;
         return true;
     }

@@ -2,9 +2,8 @@ package JUSPAY.HackethonAElemination;
 
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.Collections;
 
-public class jonScheduling {
+public class jobScheduling {
 
     public static  void swap(int[]arr, int a, int b){
         int temp = arr[a];
