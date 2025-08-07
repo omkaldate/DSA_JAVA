@@ -1,4 +1,4 @@
-package SegmentTree;
+package SegmentTree.usingNode;
 
 public class Main {
     public static void main(String[] args) {

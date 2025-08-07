@@ -1,4 +1,4 @@
-package SegmentTree;
+package SegmentTree.usingNode;
 
 public class sTree {
     class Node{
@@ -49,7 +49,7 @@ public class sTree {
     }
 
     public void update(int ind, int val){
-        update(root, ind, val);
+        this.update(root, ind, val);
     }
 
     public int update(Node node, int ind, int val){
